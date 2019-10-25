@@ -9,21 +9,27 @@ import {settings} from '../../data/dataStore';
 
 class Column extends React.Component {
     
+    
+
     static propTypes = {
         title: PropTypes.node.isRequired,
         cards: PropTypes.array,
         icon: PropTypes.string.isRequired
     };
+
+    static defaultProps = {
+        icon: settings.defaultColumnIcon,
+      };
       
     render(){ 
         const   {title, icon, cards} = this.props;
         return (
           <section className={styles.component}>
-            <h3 className={styles.title}>{this.props.title}
+            <h3 className={styles.title}>
                 <span className={styles.icon}>
-                    <Icon name={this.props.icon} />
+                    <Icon name={icon} />
                 </span>
-                {this.props.title}
+                {title}
             </h3>
             <div className={styles.cards}>
                 {cards.map(cardData => (
