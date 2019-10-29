@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import {settings} from '../../data/dataStore';
 import ReactHtmlParser from 'react-html-parser';
 import Creator from '../Creator/Creator.js';
-import ColumnContainer from '../Column/ColumnContainer.js';
+// import ColumnContainer from '../Column/ColumnContainer.js';
 
 
 class List extends React.Component {
