@@ -1,7 +1,7 @@
 {
-  "name": "react-to-do",
+  "name": "f",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://grim-grave-66933.herokuapp.com/",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
@@ -21,11 +21,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "node-static": "^0.7.11",
     "prop-types": "^15.7.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-html-parser": "^2.0.2",
     "react-redux": "^7.0.1",
+    "react-router-dom": "^5.0.0",
     "redux": "^4.0.1",
     "shortid": "^2.2.15"
   },
@@ -51,5 +53,13 @@
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.14",
     "webpack-merge": "^4.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olszowskijacek/1st-React-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/olszowskijacek/1st-React-app/issues"
+  },
+  "homepage": "https://github.com/olszowskijacek/1st-React-app#readme"
 }
