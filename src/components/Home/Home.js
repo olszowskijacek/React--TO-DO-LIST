@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Home.scss';
 import PropTypes from 'prop-types';
-import ListLink from '../ListLink/ListLink.js';
+import ListLink from '../ListLink/ListLink';
 
 
 class Home extends React.Component {
